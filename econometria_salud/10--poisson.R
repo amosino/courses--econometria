@@ -1,16 +1,9 @@
-<<<<<<< HEAD
-library(tidyverse)
-library(margins)
-library(sandwich)
-#library(countreg)
-=======
 # install.packages("countreg", repos="http://R-Forge.R-project.org")
 
 library(tidyverse)
 library(margins)
 library(sandwich)
 library(countreg)
->>>>>>> Codes
 library(AER)
 
 db <- read_csv("Datos/MEPSData.csv")
